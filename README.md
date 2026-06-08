@@ -3,6 +3,8 @@
 
 ![Python](https://img.shields.io/badge/python-3.12+-blue.svg) ![Streamlit](https://img.shields.io/badge/streamlit-1.30+-red.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_to_Open-success?style=for-the-badge)](https://spcsixsigmaproject-vnbkmdzuuefay8gsowmfky.streamlit.app/)
+
 ![Dashboard Home](screenshots/screenshot_home.png)
 
 ## Problem
@@ -88,6 +90,13 @@ Architecture supports multi-dataset analysis (Steel Plates, AI4I predictive main
 ---
 
 ## Quick Start
+
+### 🌐 Live Demo (No Install Required)
+Try the dashboard instantly in your browser — no Python, no setup required:
+
+**👉 [Open Live Dashboard](https://spcsixsigmaproject-vnbkmdzuuefay8gsowmfky.streamlit.app/)**
+
+*Note: Streamlit Cloud apps may take 10-15 seconds to wake up on first visit.*
 
 ```bash
 # 1. Clone
