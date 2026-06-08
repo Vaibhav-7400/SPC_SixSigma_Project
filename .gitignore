@@ -1,0 +1,30 @@
+# Data files (too large for git)
+train.csv
+test.csv
+mercedes-benz-greener-manufacturing/
+mercedes-benz-greener-manufacturing.zip
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Claude Code internals
+.claude/
+BUILD_PROMPT.txt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
