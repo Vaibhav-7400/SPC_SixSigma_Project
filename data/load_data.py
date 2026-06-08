@@ -8,7 +8,18 @@ DATA_PATH = os.path.join(
 
 
 def load_mercedes(path=DATA_PATH):
-    return pd.read_csv(path)
+    try:
+        return pd.read_csv(path)
+    except FileNotFoundError:
+        print(
+            f"WARNING: train.csv not found at {path}. "
+            "Falling back to synthetic data (n=4209, mean=100, std=12)."
+        )
+        y = generate_synthetic(n=4209, mean=100, std=12)
+        rng = np.random.default_rng(42)
+        configs = [f"cfg_{i}" for i in range(47)]
+        X0 = rng.choice(configs, size=4209)
+        return pd.DataFrame({"y": y.values, "X0": X0})
 
 
 def get_measurement(df):

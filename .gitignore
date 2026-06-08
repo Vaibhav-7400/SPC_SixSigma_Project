@@ -1,9 +1,7 @@
 # Data files (too large for git)
-train.csv
 test.csv
 mercedes-benz-greener-manufacturing/
 mercedes-benz-greener-manufacturing.zip
-*.csv
 
 # Python
 __pycache__/

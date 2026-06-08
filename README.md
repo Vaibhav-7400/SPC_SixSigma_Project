@@ -69,7 +69,7 @@ Identifies the vital few configurations driving most failures. 6M fishbone for s
 ---
 
 ## Tech Stack
-- **Python 3.12+**
+- **Python 3.12 (deployed) / 3.14 (local development)**
 - **Streamlit** — interactive dashboard
 - **Pandas / NumPy / SciPy** — data manipulation and statistics
 - **Matplotlib / Seaborn** — control charts and capability plots
@@ -78,10 +78,12 @@ Identifies the vital few configurations driving most failures. 6M fishbone for s
 Architecture supports multi-dataset analysis (Steel Plates, AI4I predictive maintenance) via the `ucimlrepo` library — see roadmap section.
 
 ## Dataset
-- **Source:** [Mercedes-Benz Greener Manufacturing (Kaggle)](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/data)
+
+- **Source:** [Mercedes-Benz Greener Manufacturing](https://www.kaggle.com/c/mercedes-benz-greener-manufacturing/data) — closed 2017 Kaggle competition hosted by Daimler AG
 - **Size:** 4,209 observations × 376 features
-- **Target variable:** `y` (test bench time in seconds)
+- **Target variable:** `y` = test bench time in seconds
 - **Categorical drivers:** X0-X8 (anonymized car configurations)
+- **Usage:** The dataset is included in this repository (`train.csv`) for portfolio demonstration purposes only. Original data rights remain with Daimler AG / Kaggle.
 
 ---
 
