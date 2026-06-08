@@ -89,7 +89,7 @@ Architecture supports multi-dataset analysis (Steel Plates, AI4I predictive main
 
 ```bash
 # 1. Clone
-git clone https://github.com/YOUR_GITHUB_USERNAME/spc_sixsigma_project.git
+git clone https://github.com/Vaibhav-7400/spc_sixsigma_project.git
 cd spc_sixsigma_project
 
 # 2. Install
@@ -131,3 +131,14 @@ spc_sixsigma_project/
 │
 └── screenshots/              # Dashboard screenshots for README
 ```
+
+---
+
+## Author
+
+**Vaibhav** — Continuous Improvement Engineer
+
+- 🐙 GitHub: [Vaibhav-7400](https://github.com/Vaibhav-7400)
+- 💼 LinkedIn: [vaibhav4700](https://www.linkedin.com/in/vaibhav4700)
+
+Built as part of a Continuous Improvement Engineer portfolio demonstrating end-to-end DMAIC methodology on real automotive manufacturing data.
